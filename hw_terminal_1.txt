@@ -9,4 +9,5 @@ cd testdir2/ #переход в папку testdir2
 cp file1.txt file2.jpeg file3.json folder1/ #копирование трех файлов в folder1
 echo "The time to похавать :)" #вывод текущего времени и даты с сообщением
 date
+echo "No money - no honey...LOL22!"
 exit
