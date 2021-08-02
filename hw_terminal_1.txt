@@ -5,8 +5,8 @@ cd testdir2 #переход в созданную папку
 touch file1.txt file2.jpeg file3.json #создание трех файлов разных форматов
 mkdir folder1 folder2 folder3 #создание трех папок
 ls -la #вывод содержимого текущей папки
-cd testdir2/
-cp file1.txt file2.jpeg file3.json folder1/
-echo "The time to похавать :)"
+cd testdir2/ #переход в папку testdir2
+cp file1.txt file2.jpeg file3.json folder1/ #копирование трех файлов в folder1
+echo "The time to похавать :)" #вывод текущего времени и даты с сообщением
 date
 exit
